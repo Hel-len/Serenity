@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF503F8926CE9E48007A4925 /* SerenityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF503F8826CE9E48007A4925 /* SerenityApp.swift */; };
+		BF503F8B26CE9E48007A4925 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF503F8A26CE9E48007A4925 /* ContentView.swift */; };
+		BF503F8D26CE9E4D007A4925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF503F8C26CE9E4D007A4925 /* Assets.xcassets */; };
+		BF503F9026CE9E4D007A4925 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF503F8F26CE9E4D007A4925 /* Preview Assets.xcassets */; };
+		BF503F9226CE9E4D007A4925 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF503F9126CE9E4D007A4925 /* Persistence.swift */; };
+		BF503F9526CE9E4D007A4925 /* Serenity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF503F9326CE9E4D007A4925 /* Serenity.xcdatamodeld */; };
+		BF503FA026CE9E4E007A4925 /* SerenityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF503F9F26CE9E4E007A4925 /* SerenityTests.swift */; };
+		BF503FAB26CE9E4E007A4925 /* SerenityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF503FAA26CE9E4E007A4925 /* SerenityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF503F9C26CE9E4E007A4925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF503F7D26CE9E48007A4925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF503F8426CE9E48007A4925;
+			remoteInfo = Serenity;
+		};
+		BF503FA726CE9E4E007A4925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF503F7D26CE9E48007A4925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF503F8426CE9E48007A4925;
+			remoteInfo = Serenity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF503F8526CE9E48007A4925 /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF503F8826CE9E48007A4925 /* SerenityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityApp.swift; sourceTree = "<group>"; };
+		BF503F8A26CE9E48007A4925 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF503F8C26CE9E4D007A4925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF503F8F26CE9E4D007A4925 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF503F9126CE9E4D007A4925 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BF503F9426CE9E4D007A4925 /* Serenity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Serenity.xcdatamodel; sourceTree = "<group>"; };
+		BF503F9626CE9E4D007A4925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF503F9B26CE9E4E007A4925 /* SerenityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF503F9F26CE9E4E007A4925 /* SerenityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityTests.swift; sourceTree = "<group>"; };
+		BF503FA126CE9E4E007A4925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF503FA626CE9E4E007A4925 /* SerenityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF503FAA26CE9E4E007A4925 /* SerenityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityUITests.swift; sourceTree = "<group>"; };
+		BF503FAC26CE9E4E007A4925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF503F8226CE9E48007A4925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF503F9826CE9E4E007A4925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF503FA326CE9E4E007A4925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF503F7C26CE9E48007A4925 = {
+			isa = PBXGroup;
+			children = (
+				BF503F8726CE9E48007A4925 /* Serenity */,
+				BF503F9E26CE9E4E007A4925 /* SerenityTests */,
+				BF503FA926CE9E4E007A4925 /* SerenityUITests */,
+				BF503F8626CE9E48007A4925 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF503F8626CE9E48007A4925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF503F8526CE9E48007A4925 /* Serenity.app */,
+				BF503F9B26CE9E4E007A4925 /* SerenityTests.xctest */,
+				BF503FA626CE9E4E007A4925 /* SerenityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF503F8726CE9E48007A4925 /* Serenity */ = {
+			isa = PBXGroup;
+			children = (
+				BF503F8826CE9E48007A4925 /* SerenityApp.swift */,
+				BF503F8A26CE9E48007A4925 /* ContentView.swift */,
+				BF503F8C26CE9E4D007A4925 /* Assets.xcassets */,
+				BF503F9126CE9E4D007A4925 /* Persistence.swift */,
+				BF503F9626CE9E4D007A4925 /* Info.plist */,
+				BF503F9326CE9E4D007A4925 /* Serenity.xcdatamodeld */,
+				BF503F8E26CE9E4D007A4925 /* Preview Content */,
+			);
+			path = Serenity;
+			sourceTree = "<group>";
+		};
+		BF503F8E26CE9E4D007A4925 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF503F8F26CE9E4D007A4925 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF503F9E26CE9E4E007A4925 /* SerenityTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF503F9F26CE9E4E007A4925 /* SerenityTests.swift */,
+				BF503FA126CE9E4E007A4925 /* Info.plist */,
+			);
+			path = SerenityTests;
+			sourceTree = "<group>";
+		};
+		BF503FA926CE9E4E007A4925 /* SerenityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF503FAA26CE9E4E007A4925 /* SerenityUITests.swift */,
+				BF503FAC26CE9E4E007A4925 /* Info.plist */,
+			);
+			path = SerenityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF503F8426CE9E48007A4925 /* Serenity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF503FAF26CE9E4E007A4925 /* Build configuration list for PBXNativeTarget "Serenity" */;
+			buildPhases = (
+				BF503F8126CE9E48007A4925 /* Sources */,
+				BF503F8226CE9E48007A4925 /* Frameworks */,
+				BF503F8326CE9E48007A4925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Serenity;
+			productName = Serenity;
+			productReference = BF503F8526CE9E48007A4925 /* Serenity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF503F9A26CE9E4E007A4925 /* SerenityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF503FB226CE9E4E007A4925 /* Build configuration list for PBXNativeTarget "SerenityTests" */;
+			buildPhases = (
+				BF503F9726CE9E4E007A4925 /* Sources */,
+				BF503F9826CE9E4E007A4925 /* Frameworks */,
+				BF503F9926CE9E4E007A4925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF503F9D26CE9E4E007A4925 /* PBXTargetDependency */,
+			);
+			name = SerenityTests;
+			productName = SerenityTests;
+			productReference = BF503F9B26CE9E4E007A4925 /* SerenityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF503FA526CE9E4E007A4925 /* SerenityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF503FB526CE9E4E007A4925 /* Build configuration list for PBXNativeTarget "SerenityUITests" */;
+			buildPhases = (
+				BF503FA226CE9E4E007A4925 /* Sources */,
+				BF503FA326CE9E4E007A4925 /* Frameworks */,
+				BF503FA426CE9E4E007A4925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF503FA826CE9E4E007A4925 /* PBXTargetDependency */,
+			);
+			name = SerenityUITests;
+			productName = SerenityUITests;
+			productReference = BF503FA626CE9E4E007A4925 /* SerenityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF503F7D26CE9E48007A4925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BF503F8426CE9E48007A4925 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					BF503F9A26CE9E4E007A4925 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BF503F8426CE9E48007A4925;
+					};
+					BF503FA526CE9E4E007A4925 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = BF503F8426CE9E48007A4925;
+					};
+				};
+			};
+			buildConfigurationList = BF503F8026CE9E48007A4925 /* Build configuration list for PBXProject "Serenity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF503F7C26CE9E48007A4925;
+			productRefGroup = BF503F8626CE9E48007A4925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF503F8426CE9E48007A4925 /* Serenity */,
+				BF503F9A26CE9E4E007A4925 /* SerenityTests */,
+				BF503FA526CE9E4E007A4925 /* SerenityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF503F8326CE9E48007A4925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF503F9026CE9E4D007A4925 /* Preview Assets.xcassets in Resources */,
+				BF503F8D26CE9E4D007A4925 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF503F9926CE9E4E007A4925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF503FA426CE9E4E007A4925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF503F8126CE9E48007A4925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF503F9526CE9E4D007A4925 /* Serenity.xcdatamodeld in Sources */,
+				BF503F9226CE9E4D007A4925 /* Persistence.swift in Sources */,
+				BF503F8B26CE9E48007A4925 /* ContentView.swift in Sources */,
+				BF503F8926CE9E48007A4925 /* SerenityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF503F9726CE9E4E007A4925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF503FA026CE9E4E007A4925 /* SerenityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF503FA226CE9E4E007A4925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF503FAB26CE9E4E007A4925 /* SerenityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF503F9D26CE9E4E007A4925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF503F8426CE9E48007A4925 /* Serenity */;
+			targetProxy = BF503F9C26CE9E4E007A4925 /* PBXContainerItemProxy */;
+		};
+		BF503FA826CE9E4E007A4925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF503F8426CE9E48007A4925 /* Serenity */;
+			targetProxy = BF503FA726CE9E4E007A4925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF503FAD26CE9E4E007A4925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF503FAE26CE9E4E007A4925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF503FB026CE9E4E007A4925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Serenity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Serenity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.DrankinaElena.Serenity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF503FB126CE9E4E007A4925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Serenity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Serenity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.DrankinaElena.Serenity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF503FB326CE9E4E007A4925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SerenityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.DrankinaElena.SerenityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Serenity.app/Serenity";
+			};
+			name = Debug;
+		};
+		BF503FB426CE9E4E007A4925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SerenityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.DrankinaElena.SerenityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Serenity.app/Serenity";
+			};
+			name = Release;
+		};
+		BF503FB626CE9E4E007A4925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SerenityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.DrankinaElena.SerenityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Serenity;
+			};
+			name = Debug;
+		};
+		BF503FB726CE9E4E007A4925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SerenityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.DrankinaElena.SerenityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Serenity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF503F8026CE9E48007A4925 /* Build configuration list for PBXProject "Serenity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF503FAD26CE9E4E007A4925 /* Debug */,
+				BF503FAE26CE9E4E007A4925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF503FAF26CE9E4E007A4925 /* Build configuration list for PBXNativeTarget "Serenity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF503FB026CE9E4E007A4925 /* Debug */,
+				BF503FB126CE9E4E007A4925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF503FB226CE9E4E007A4925 /* Build configuration list for PBXNativeTarget "SerenityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF503FB326CE9E4E007A4925 /* Debug */,
+				BF503FB426CE9E4E007A4925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF503FB526CE9E4E007A4925 /* Build configuration list for PBXNativeTarget "SerenityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF503FB626CE9E4E007A4925 /* Debug */,
+				BF503FB726CE9E4E007A4925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF503F9326CE9E4D007A4925 /* Serenity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF503F9426CE9E4D007A4925 /* Serenity.xcdatamodel */,
+			);
+			currentVersion = BF503F9426CE9E4D007A4925 /* Serenity.xcdatamodel */;
+			path = Serenity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF503F7D26CE9E48007A4925 /* Project object */;
+}
