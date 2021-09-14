@@ -2,7 +2,7 @@
 //  SerenityApp.swift
 //  Serenity
 //
-//  Created by Елена Дранкина on 19.08.2021.
+//  Created by Елена Дранкина on 14.09.2021.
 //
 
 import SwiftUI
@@ -13,8 +13,8 @@ struct SerenityApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MainMenuView()
+ //               .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
