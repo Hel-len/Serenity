@@ -15,6 +15,37 @@
 		BF503F9526CE9E4D007A4925 /* Serenity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF503F9326CE9E4D007A4925 /* Serenity.xcdatamodeld */; };
 		BF503FA026CE9E4E007A4925 /* SerenityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF503F9F26CE9E4E007A4925 /* SerenityTests.swift */; };
 		BF503FAB26CE9E4E007A4925 /* SerenityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF503FAA26CE9E4E007A4925 /* SerenityUITests.swift */; };
+		BF503FBC26CEA295007A4925 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF503FBB26CEA295007A4925 /* MainMenuView.swift */; };
+		BF503FBE26CFDF5C007A4925 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF503FBD26CFDF5C007A4925 /* Episode.swift */; };
+		BFA7F3A026D626F900A368BD /* ViewLandscapeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA7F39F26D626F900A368BD /* ViewLandscapeModifier.swift */; };
+		BFC21A0B26D65DEA00E41501 /* names.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFC21A0926D65B7E00E41501 /* names.ttf */; };
+		BFC21A5526F0E66400E41501 /* Nasalization.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC21A5426F0E66400E41501 /* Nasalization.otf */; };
+		BFC21A5626F0E66400E41501 /* Nasalization.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC21A5426F0E66400E41501 /* Nasalization.otf */; };
+		BFC21A5726F0E66400E41501 /* Nasalization.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFC21A5426F0E66400E41501 /* Nasalization.otf */; };
+		BFC21A5926F0ECBB00E41501 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A5826F0ECBA00E41501 /* CustomColor.swift */; };
+		BFC21A5A26F0ECBB00E41501 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A5826F0ECBA00E41501 /* CustomColor.swift */; };
+		BFC21A5B26F0ECBB00E41501 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A5826F0ECBA00E41501 /* CustomColor.swift */; };
+		BFC21A5D26F245FA00E41501 /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A5C26F245FA00E41501 /* NewGameView.swift */; };
+		BFC21A5E26F245FA00E41501 /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A5C26F245FA00E41501 /* NewGameView.swift */; };
+		BFC21A5F26F245FA00E41501 /* NewGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A5C26F245FA00E41501 /* NewGameView.swift */; };
+		BFC21A6126F247A200E41501 /* GameOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6026F247A200E41501 /* GameOptionsView.swift */; };
+		BFC21A6226F247A200E41501 /* GameOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6026F247A200E41501 /* GameOptionsView.swift */; };
+		BFC21A6326F247A200E41501 /* GameOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6026F247A200E41501 /* GameOptionsView.swift */; };
+		BFC21A6526F247BC00E41501 /* AboutGameInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6426F247BC00E41501 /* AboutGameInfoView.swift */; };
+		BFC21A6626F247BC00E41501 /* AboutGameInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6426F247BC00E41501 /* AboutGameInfoView.swift */; };
+		BFC21A6726F247BC00E41501 /* AboutGameInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6426F247BC00E41501 /* AboutGameInfoView.swift */; };
+		BFC21A6926F2480A00E41501 /* MenuLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6826F2480A00E41501 /* MenuLabelView.swift */; };
+		BFC21A6A26F2480A00E41501 /* MenuLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6826F2480A00E41501 /* MenuLabelView.swift */; };
+		BFC21A6B26F2480A00E41501 /* MenuLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6826F2480A00E41501 /* MenuLabelView.swift */; };
+		BFC21A6D26F24F9900E41501 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6C26F24F9900E41501 /* NavigationBarModifier.swift */; };
+		BFC21A6E26F24F9900E41501 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6C26F24F9900E41501 /* NavigationBarModifier.swift */; };
+		BFC21A6F26F24F9900E41501 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A6C26F24F9900E41501 /* NavigationBarModifier.swift */; };
+		BFC21A7126FB37FE00E41501 /* BackBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A7026FB37FE00E41501 /* BackBarItemView.swift */; };
+		BFC21A7226FB37FE00E41501 /* BackBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A7026FB37FE00E41501 /* BackBarItemView.swift */; };
+		BFC21A7326FB37FE00E41501 /* BackBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A7026FB37FE00E41501 /* BackBarItemView.swift */; };
+		BFC21A7526FB3CFA00E41501 /* TextBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A7426FB3CFA00E41501 /* TextBlockView.swift */; };
+		BFC21A7626FB3CFA00E41501 /* TextBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A7426FB3CFA00E41501 /* TextBlockView.swift */; };
+		BFC21A7726FB3CFA00E41501 /* TextBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21A7426FB3CFA00E41501 /* TextBlockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +80,19 @@
 		BF503FA626CE9E4E007A4925 /* SerenityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF503FAA26CE9E4E007A4925 /* SerenityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityUITests.swift; sourceTree = "<group>"; };
 		BF503FAC26CE9E4E007A4925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF503FBB26CEA295007A4925 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		BF503FBD26CFDF5C007A4925 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		BFA7F39F26D626F900A368BD /* ViewLandscapeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLandscapeModifier.swift; sourceTree = "<group>"; };
+		BFC21A0926D65B7E00E41501 /* names.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = names.ttf; sourceTree = "<group>"; };
+		BFC21A5426F0E66400E41501 /* Nasalization.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nasalization.otf; sourceTree = "<group>"; };
+		BFC21A5826F0ECBA00E41501 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		BFC21A5C26F245FA00E41501 /* NewGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameView.swift; sourceTree = "<group>"; };
+		BFC21A6026F247A200E41501 /* GameOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOptionsView.swift; sourceTree = "<group>"; };
+		BFC21A6426F247BC00E41501 /* AboutGameInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutGameInfoView.swift; sourceTree = "<group>"; };
+		BFC21A6826F2480A00E41501 /* MenuLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLabelView.swift; sourceTree = "<group>"; };
+		BFC21A6C26F24F9900E41501 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		BFC21A7026FB37FE00E41501 /* BackBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBarItemView.swift; sourceTree = "<group>"; };
+		BFC21A7426FB3CFA00E41501 /* TextBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBlockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +143,12 @@
 		BF503F8726CE9E48007A4925 /* Serenity */ = {
 			isa = PBXGroup;
 			children = (
+				BFC21A0526D6576200E41501 /* SerenityFonts */,
+				BFA7F39C26D626A400A368BD /* Helpers */,
+				BF503FBA26CE9EA0007A4925 /* ViewModels */,
+				BF503FB926CE9E91007A4925 /* Views */,
+				BF503FB826CE9E72007A4925 /* Model */,
 				BF503F8826CE9E48007A4925 /* SerenityApp.swift */,
-				BF503F8A26CE9E48007A4925 /* ContentView.swift */,
 				BF503F8C26CE9E4D007A4925 /* Assets.xcassets */,
 				BF503F9126CE9E4D007A4925 /* Persistence.swift */,
 				BF503F9626CE9E4D007A4925 /* Info.plist */,
@@ -134,6 +182,55 @@
 				BF503FAC26CE9E4E007A4925 /* Info.plist */,
 			);
 			path = SerenityUITests;
+			sourceTree = "<group>";
+		};
+		BF503FB826CE9E72007A4925 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF503FBD26CFDF5C007A4925 /* Episode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF503FB926CE9E91007A4925 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFC21A6826F2480A00E41501 /* MenuLabelView.swift */,
+				BFC21A7026FB37FE00E41501 /* BackBarItemView.swift */,
+				BFC21A7426FB3CFA00E41501 /* TextBlockView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF503FBA26CE9EA0007A4925 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BF503F8A26CE9E48007A4925 /* ContentView.swift */,
+				BF503FBB26CEA295007A4925 /* MainMenuView.swift */,
+				BFC21A5C26F245FA00E41501 /* NewGameView.swift */,
+				BFC21A6026F247A200E41501 /* GameOptionsView.swift */,
+				BFC21A6426F247BC00E41501 /* AboutGameInfoView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BFA7F39C26D626A400A368BD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BFA7F39F26D626F900A368BD /* ViewLandscapeModifier.swift */,
+				BFC21A5826F0ECBA00E41501 /* CustomColor.swift */,
+				BFC21A6C26F24F9900E41501 /* NavigationBarModifier.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BFC21A0526D6576200E41501 /* SerenityFonts */ = {
+			isa = PBXGroup;
+			children = (
+				BFC21A5426F0E66400E41501 /* Nasalization.otf */,
+				BFC21A0926D65B7E00E41501 /* names.ttf */,
+			);
+			path = SerenityFonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +336,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC21A5526F0E66400E41501 /* Nasalization.otf in Resources */,
 				BF503F9026CE9E4D007A4925 /* Preview Assets.xcassets in Resources */,
+				BFC21A0B26D65DEA00E41501 /* names.ttf in Resources */,
 				BF503F8D26CE9E4D007A4925 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC21A5626F0E66400E41501 /* Nasalization.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC21A5726F0E66400E41501 /* Nasalization.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +366,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA7F3A026D626F900A368BD /* ViewLandscapeModifier.swift in Sources */,
+				BF503FBC26CEA295007A4925 /* MainMenuView.swift in Sources */,
+				BFC21A5D26F245FA00E41501 /* NewGameView.swift in Sources */,
+				BF503FBE26CFDF5C007A4925 /* Episode.swift in Sources */,
 				BF503F9526CE9E4D007A4925 /* Serenity.xcdatamodeld in Sources */,
 				BF503F9226CE9E4D007A4925 /* Persistence.swift in Sources */,
+				BFC21A7526FB3CFA00E41501 /* TextBlockView.swift in Sources */,
+				BFC21A6926F2480A00E41501 /* MenuLabelView.swift in Sources */,
 				BF503F8B26CE9E48007A4925 /* ContentView.swift in Sources */,
+				BFC21A7126FB37FE00E41501 /* BackBarItemView.swift in Sources */,
+				BFC21A6126F247A200E41501 /* GameOptionsView.swift in Sources */,
+				BFC21A5926F0ECBB00E41501 /* CustomColor.swift in Sources */,
 				BF503F8926CE9E48007A4925 /* SerenityApp.swift in Sources */,
+				BFC21A6526F247BC00E41501 /* AboutGameInfoView.swift in Sources */,
+				BFC21A6D26F24F9900E41501 /* NavigationBarModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +388,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC21A7226FB37FE00E41501 /* BackBarItemView.swift in Sources */,
+				BFC21A5A26F0ECBB00E41501 /* CustomColor.swift in Sources */,
+				BFC21A6E26F24F9900E41501 /* NavigationBarModifier.swift in Sources */,
+				BFC21A7626FB3CFA00E41501 /* TextBlockView.swift in Sources */,
+				BFC21A6626F247BC00E41501 /* AboutGameInfoView.swift in Sources */,
+				BFC21A6226F247A200E41501 /* GameOptionsView.swift in Sources */,
 				BF503FA026CE9E4E007A4925 /* SerenityTests.swift in Sources */,
+				BFC21A6A26F2480A00E41501 /* MenuLabelView.swift in Sources */,
+				BFC21A5E26F245FA00E41501 /* NewGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +404,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC21A7326FB37FE00E41501 /* BackBarItemView.swift in Sources */,
+				BFC21A5B26F0ECBB00E41501 /* CustomColor.swift in Sources */,
+				BFC21A6F26F24F9900E41501 /* NavigationBarModifier.swift in Sources */,
+				BFC21A7726FB3CFA00E41501 /* TextBlockView.swift in Sources */,
+				BFC21A6726F247BC00E41501 /* AboutGameInfoView.swift in Sources */,
+				BFC21A6326F247A200E41501 /* GameOptionsView.swift in Sources */,
 				BF503FAB26CE9E4E007A4925 /* SerenityUITests.swift in Sources */,
+				BFC21A6B26F2480A00E41501 /* MenuLabelView.swift in Sources */,
+				BFC21A5F26F245FA00E41501 /* NewGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
